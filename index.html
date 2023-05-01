@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedéx</title>
 
+    <!-- link Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet">
+
+    <!-- link CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- link Script -->
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <img src="#" alt="" class="img__pokemon">
+            <h1 class="pokemon__data">
+                <span class="number__data"></span> -
+                <span class="name__data"></span>
+            </h1>
+
+            <form class="formulario">
+                <input
+                type="search"
+                class="input__search"
+                placeholder="number or name"
+                required
+                />
+            </form>
+
+            <div class="buttons">
+                <button class="button btn-prev">Prev &lt;</button>
+                <button class="button btn-next">Next &gt;</button>
+            </div>
+        
+            <img src="pokedex.png" alt="" class="pokedex">
+        </section>
+    </main>
+</body>
+</html>
