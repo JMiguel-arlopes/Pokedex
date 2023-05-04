@@ -1,0 +1,53 @@
+.formulario {
+    position: absolute;
+    width: 61%;
+    top: 67.5%;
+    left: 15%;
+}
+
+.form_2 {
+    display: flex;
+    width: 67%;
+    justify-content: space-around;
+    align-items: end;
+    gap: 3%;
+}
+
+.input__search {
+    width: 100%;
+    outline: none;
+    padding: 4%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 0 #888, -4px 6px 0 #222;
+}
+
+.btn-submit {
+    padding: 2.5%;
+    background-color: #011;
+    border: 2px solid #122;
+    border-radius: 10px;
+    color: red;
+    font-weight: 600;
+    box-shadow: -0.5px 0.5px 0 #333, -1px 1px 0 #111;
+}
+
+.btn-submit:disabled {
+    display: none;
+}
+
+.btn-submit:active {
+    box-shadow: inset -2px 2px 0 #222;
+    padding: 2.3%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48,
+}
