@@ -1,0 +1,13 @@
+.pokemon__data {
+    position: absolute;
+    top: 55%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 25px);
+    font-weight: 600;
+    color: #aab;
+}
+
+.name__data {
+    color: #3a444d;
+    text-transform: capitalize;
+}
